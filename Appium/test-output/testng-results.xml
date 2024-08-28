@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T18:16:07 IST" name="Default suite" finished-at="2024-08-27T18:16:28 IST" duration-ms="21418">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T18:16:07 IST" name="Default test" finished-at="2024-08-27T18:16:28 IST" duration-ms="21418">
+      <class name="TestCase.TestRunner">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:TestCase.TestRunner@23aa363a]" started-at="2024-08-27T18:16:07 IST" name="configureAppium" finished-at="2024-08-27T18:16:11 IST" duration-ms="4224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="ProeductTesting()[pri:0, instance:TestCase.TestRunner@23aa363a]" started-at="2024-08-27T18:16:11 IST" name="ProeductTesting" finished-at="2024-08-27T18:16:28 IST" duration-ms="16888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProeductTesting -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:TestCase.TestRunner@23aa363a]" started-at="2024-08-27T18:16:28 IST" name="logTestResult" finished-at="2024-08-27T18:16:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProeductTesting status=SUCCESS method=TestRunner.ProeductTesting()[pri:0, instance:TestCase.TestRunner@23aa363a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestCase.TestRunner@23aa363a]" started-at="2024-08-27T18:16:28 IST" name="closeApp" finished-at="2024-08-27T18:16:28 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestCase.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
